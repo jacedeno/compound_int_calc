@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Streamlit app title
-st.title('Savings Calculator by Jose Cedeno')
+st.title('Savings Calculator💰 by Jose Cedeno')
 
 # Input fields
 apr = st.number_input("Enter the Annual Percentage Rate (APR) as a percentage:", min_value=0.0, format='%f') / 100
