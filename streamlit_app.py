@@ -25,5 +25,5 @@ if st.button('Calculate Future Value'):
     fv_without_apr = pv + weekly_pmt * total_weeks
 
     # Display the results
-    st.success(f"The future value of your savings with an initial deposit of ${pv:,.2f} after {years} years with an APR of {apr:.2%} and a weekly deposit of ${weekly_pmt:,.2f} (converted to monthly: ${monthly_pmt:,.2f}) is: ${fv_with_apr:,.2f}")
-    st.success(f"The future value of your savings without any APR, just the initial deposit and weekly deposits, is: ${fv_without_apr:,.2f}")
+    st.success(f"The future value of your savings with an initial deposit of $ {pv:,.2f } after { years} years with an APR of { apr:.2%} and a weekly deposit of $ { weekly_pmt:,.2f} is: $ { fv_with_apr:,.2f}")
+    st.success(f"The future value of your savings without any APR, just the initial deposit and weekly deposits, is: ${ fv_without_apr:,.2f}")
